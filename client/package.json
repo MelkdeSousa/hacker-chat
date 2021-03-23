@@ -5,7 +5,10 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "start:user1": "node index.js --username melkdesousa --room class01 --host localhost:9898",
+    "start:user2": "node index.js --username melkdesousa --room class01 --host http://localhost:9898",
+    "start:user3": "node index.js --username melkdesousa --room class01 --host https://localhost:9898"
   },
   "dependencies": {
     "blessed": "^0.1.81"
