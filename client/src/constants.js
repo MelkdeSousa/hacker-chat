@@ -5,6 +5,9 @@ const app = {
   STATUS_UPDATE: 'status:update',
 }
 
-const socket = {}
+const socket = {
+  JOIN_ROOM: 'joinRoom',
+  MESSAGE: 'message',
+}
 
 export { app, socket }

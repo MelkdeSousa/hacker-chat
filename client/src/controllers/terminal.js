@@ -22,7 +22,7 @@ export default class Terminal {
   #onInputReceived(eventEmitter) {
     return function () {
       const message = this.getValue()
-      console.log(message)
+      eventEmitter.emit(app.MESSAGE_SEND, message)
       this.clearValue()
     }
   }

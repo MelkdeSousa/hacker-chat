@@ -1,6 +1,6 @@
 export const events = {
   MESSAGE: 'message',
-  NEW_USER_CONNECTED: 'new-user-connected',
+  NEW_USER_CONNECTED: 'newUserConnected',
   DISCONNECT_USER: 'disconnect-user',
-  UPDATE_USERS: 'update-users',
+  UPDATE_USERS: 'updateUsers',
 }
