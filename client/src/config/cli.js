@@ -1,5 +1,7 @@
+const PRODUCTION_URL = process.env.PRODUCTION_URL
+
 export default class CLI {
-  constructor({ username, room, host }) {
+  constructor({ username, room, host = PRODUCTION_URL }) {
     this.username = username
     this.room = room
 
