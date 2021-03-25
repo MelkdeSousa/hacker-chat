@@ -1,15 +1,14 @@
 {
-  "name": "client",
+  "name": "@melkdesousa/hacker-chat",
   "version": "1.0.0",
   "type": "module",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "node index.js",
-    "start:user1": "node index.js --username melkdesousa --room sala1 --host http://localhost:9898",
-    "start:user2": "node index.js --username lemueldesousa --room sala1 --host http://localhost:9898",
-    "start:user3": "node index.js --username kratos --room sala2 --host http://localhost:9898",
-    "start:user4": "node index.js --username ironman --room sala2 --host http://localhost:9898"
+    "start": "node index.js"
+  },
+  "bin": {
+    "hacker-chat": "index.js"
   },
   "dependencies": {
     "blessed": "^0.1.81"

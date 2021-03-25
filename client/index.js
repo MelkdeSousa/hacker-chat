@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import Events from 'events'
 import CLIConfig from './src/config/cli.js'
 import TerminalController from './src/controllers/terminal.js'
